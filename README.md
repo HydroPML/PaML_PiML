@@ -4,7 +4,9 @@ PiML is a widely-used approach that integrates physical laws into ML models (for
 # Challenges of vanilla PINNs
 ![(a) Challenges of vanilla PINNs. (b) An example of vanilla PINNs failing to converge on high-frequency and multi-scale PDEs. 1-D convection equations with high-frequency (first row): Train and infer on a  spatial-temporary resolution 256 \times 100; 2-D steady incompressible Navier-Stokes equations (second row): Train and infer on a  spatial resolution 49 \times 77. Analytical solution and computational fluid dynamics (CFD) represent ground truth.](https://github.com/HydroPML/PaML_PiML/blob/main/fig2.png)  
 # Model Zoo
-## The objectives and limitations of different Physics-informed Neural Networks
+## Physics-informed Neural Networks
 ![image](https://github.com/HydroPML/PaML_PiML/blob/main/Table3.png)
-## The objectives and limitations of different Physics-informed Neural Operators  
-![image](https://github.com/HydroPML/PaML_PiML/blob/main/Table4.png)
+## Physics-informed Neural Operators  
+![image](https://github.com/HydroPML/PaML_PiML/blob/main/Table4.png)  
+**Continuously updating**   
+More information can be found in the [PAPER](https://arxiv.org/abs/2310.05227)  
